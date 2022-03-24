@@ -48,5 +48,5 @@ def evaluate(estimator, X_train, X_test, y_train, y_test, roc_auc='proba'):
         print(f"ROC-AUC: {roc_auc_score(y_test, test_out)}")
     
     # plot test confusion matrix
-    plot_confusion_matrix(estimator, X_test, y_test, values_format=',.5g')
+    plot_confusion_matrix(estimator, X_test, y_test, values_format=',.5g', cmap=plt.cm.Oranges)
     plt.show()
