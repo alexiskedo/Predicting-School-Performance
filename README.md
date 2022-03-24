@@ -1,4 +1,4 @@
-# Predicting-U.S. Public School Reading Performance
+# Predicting U.S. Public School Reading Performance
 ### A Classification Modeling Project
 
 By: Alexis Kedo
